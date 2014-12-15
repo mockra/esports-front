@@ -1,0 +1,8 @@
+<h1>Posts</h1>
+{{outlet}}
+
+<ul>
+  {{#each post in attrs.posts}}
+    <li>{{ post.title }}</li>
+  {{/each}}
+</ul>
